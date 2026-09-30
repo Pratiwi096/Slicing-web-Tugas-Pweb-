@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nuzul Wahyu Pratiwi — Portfolio</title>
+  <meta name="description" content="Portfolio Nuzul Wahyu Pratiwi, mahasiswa Teknologi Informasi Fasilkom.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <span class="logo">Portofolio</span>
+    <button id="menuBtn" class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav id="nav" class="nav">
+      <a href="#tentang">Tentang</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-label">Halo, saya</p>
+        <h1>Nuzul Wahyu<br>Pratiwi</h1>
+        <p class="hero-sub">
+          Mahasiswa <strong>Teknologi Informasi</strong> di Fakultas Ilmu Komputer.
+          Senang eksplorasi dunia pemrograman, desain, dan database.
+        </p>
+        <div class="hero-actions">
+          <a class="btn-main" href="#proyek">Lihat Proyek</a>
+          <a class="btn-ghost" href="#kontak">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-foto">
+        <div class="foto-wrapper">
+          <img
+            src="Foto_Tiwi.png"
+            alt="Foto Nuzul Wahyu Pratiwi"
+            id="profileImg"
+            onerror="this.style.display='none'; document.getElementById('fotoFallback').style.display='flex';"
+          >
+          <div class="foto-fallback" id="fotoFallback">Portofolio</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="section">
+      <div class="section-inner about-grid">
+        <div>
+          <h2>Tentang Saya</h2>
+          <p>
+            Saya sedang menempuh studi <strong>Teknologi Informasi</strong> di Fasilkom.
+            Program studi ini mencakup bidang seperti rekayasa perangkat lunak, database,
+            jaringan komputer, dan sistem informasi yang berfokus pada penerapan teknologi untuk
+            memecahkan masalah nyata di masyarakat.
+          </p>
+          <p>
+            Di luar kuliah, saya suka bereksperimen dengan project-project kecil,
+            belajar hal-hal baru seputar desain dan coding, serta bekerja dalam tim.
+          </p>
+        </div>
+        <div class="about-info">
+          <div class="info-item">
+            <span class="info-label">Program Studi</span>
+            <span>Teknologi Informasi</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Fakultas</span>
+            <span>Ilmu Komputer (Fasilkom)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEAHLIAN -->
+    <section id="keahlian" class="section">
+      <div class="section-inner">
+        <h2>Keahlian</h2>
+        <p class="section-sub">Tools dan bahasa pemrograman yang sudah saya pelajari.</p>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <div class="skill-name">Canva</div>
+            <div class="skill-cat">Desain</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">✏️</div>
+            <div class="skill-name">Figma</div>
+            <div class="skill-cat">UI/UX</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🐘</div>
+            <div class="skill-name">PostgreSQL</div>
+            <div class="skill-cat">Database</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🐍</div>
+            <div class="skill-name">Python</div>
+            <div class="skill-cat">Pemrograman</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">💻</div>
+            <div class="skill-name">C#</div>
+            <div class="skill-cat">Pemrograman</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <div class="skill-name">HTML</div>
+            <div class="skill-cat">Web</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYEK -->
+    <section id="proyek" class="section">
+      <div class="section-inner">
+        <h2>Proyek</h2>
+        <p class="section-sub">Beberapa project yang pernah saya kerjakan bersama tim.</p>
+
+        <div class="project-list">
+
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div>
+                <span class="project-tag">Python · PostgreSQL · Terminal</span>
+                <h3>PASTANI <span class="project-num">#1</span></h3>
+              </div>
+              <span class="project-badge">Semester 1</span>
+            </div>
+            <p>
+              Platform berbasis terminal yang menghubungkan <strong>petani langsung ke konsumen</strong>
+              tanpa perantara tengkulak. Petani bisa mendaftarkan hasil taninya, dan konsumen dapat
+              langsung membeli dengan harga yang lebih adil.
+            </p>
+            <p>
+              Proyek akhir ini dikerjakan secara berkelompok, dibangun dengan <strong>Python</strong>
+              dan diintegrasikan dengan database <strong>PostgreSQL</strong> untuk mengelola data
+              pengguna, produk, dan transaksi.
+            </p>
+            <div class="project-tags-row">
+              <span>Python</span><span>PostgreSQL</span><span>Terminal App</span><span>Kelompok</span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div>
+                <span class="project-tag">C# · OOP · PostgreSQL Lanjut</span>
+                <h3>PASTANI <span class="project-num">#2</span></h3>
+              </div>
+              <span class="project-badge">Semester 2</span>
+            </div>
+            <p>
+              Pengembangan lanjutan dari studi kasus PASTANI menggunakan <strong>C# dengan paradigma
+              OOP (Object-Oriented Programming)</strong>. Proyek ini juga mengintegrasikan materi
+              <strong>PostgreSQL tingkat lanjut</strong> seperti stored procedure, trigger, dan
+              relasi antar tabel yang lebih kompleks.
+            </p>
+            <p>
+              Merupakan kelanjutan dari project semester sebelumnya dengan cakupan fitur yang lebih
+              lengkap dan arsitektur yang lebih terstruktur.
+            </p>
+            <div class="project-tags-row">
+              <span>C#</span><span>OOP</span><span>PostgreSQL</span><span>Database Lanjut</span><span>Kelompok</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="section">
+      <div class="section-inner kontak-wrap">
+        <h2>Kontak</h2>
+        <p class="section-sub">Mau ngobrol atau kolaborasi? Hubungi saya lewat email dibawah ini.</p>
+        <div class="kontak-links">
+          <a href="mailto:nuzulwahyu018@gmail.com" class="kontak-item" id="contactEmail">
+            <span class="kontak-icon">✉️</span>
+            <div>
+              <div class="kontak-title">Email</div>
+              <div class="kontak-val">nuzulwahyu018@gmail.com</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Nuzul Wahyu Pratiwi</span>
+    <span class="footer-dot">·</span>
+    <span>Mahasiswa Teknologi Informasi, Fasilkom</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
