@@ -1,8 +1,8 @@
-# Portfolio Nuzul — Tugas Slicing Website (Pemrograman Web)
+# Portfolio (Tugas Slicing Website matkul Pweb)
 
 Portfolio satu halaman untuk tugas slicing website bebas.
 
-**Demo:** _tempel link deployment (GitHub Pages / Netlify / Vercel) di sini_
+**Demo:**  https://pratiwi096.github.io/Slicing-web-Tugas-Pweb-/
 
 
 
