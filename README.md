@@ -4,11 +4,7 @@ Portfolio satu halaman untuk tugas slicing website bebas.
 
 **Demo:** _tempel link deployment (GitHub Pages / Netlify / Vercel) di sini_
 
-## Screenshot
 
-| Desktop | Tablet | Mobile |
-|---|---|---|
-| ![Desktop](screenshots/desktop.png) | ![Tablet](screenshots/tablet.png) | ![Mobile](screenshots/mobile.png) |
 
 ## Penjelasan singkat
 
